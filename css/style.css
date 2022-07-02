@@ -330,7 +330,7 @@ a:active { text-decoration: none; }
 
 
 /*Media Query para diseño responsive, dispositivos pequeños */
-@media (max-width:376px) {
+@media (min-width:350px) and (max-width:480px){ 
 /* tamaño de letra */
     p, .areaMedia p {
         font-size: 0.8rem;
